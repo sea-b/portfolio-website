@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e4f8fa;
-    animation: backgroundAnimation 7s infinite alternate;
+    animation: backgroundAnimation 4s infinite alternate;
 }
 
 /* Define the color-changing animation */
@@ -14,13 +14,13 @@ body {
     /*25% {
         background-color: #fcfad0;
     }*/
-    50% {
+    20% {
         background-color: #fffffb;
     }
-    20% {
+    40% {
         background-color: #d3efff;
     }
-    30% {
+    100% {
         background-color: #f8eefc;
     }
 }
