@@ -2,7 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e4f8fa;
+    animation: backgroundAnimation 7s infinite alternate;
+}
+
+/* Define the color-changing animation */
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #d6f5f8;
+    }
+    /*25% {
+        background-color: #fcfad0;
+    }*/
+    50% {
+        background-color: #fffffb;
+    }
+    20% {
+        background-color: #d3efff;
+    }
+    30% {
+        background-color: #f8eefc;
+    }
 }
 
 header {
