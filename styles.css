@@ -1,45 +1,48 @@
+/* Body Styling with Background Animation */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e4f8fa;
-    animation: backgroundAnimation 4s infinite alternate;
+    background-color: #f4ffff;
+    animation: backgroundAnimation 15s infinite alternate;
 }
 
-/* Define the color-changing animation */
-@keyframes backgroundAnimation {
+/*Background Color Changing Animation #d3efff #effaff  #d6f5f8* #fffff7 #f8eefc   #fff7fb*/
+ @keyframes backgroundAnimation {
     0% {
-        background-color: #d6f5f8;
+        background-color: #f7fffc;
     }
-    /*25% {
-        background-color: #fcfad0;
-    }*/
     20% {
-        background-color: #fffffb;
+        background-color: #f4ffff;
     }
     40% {
-        background-color: #d3efff;
+        background-color: #fffffb;
+    }
+    60% {
+        background-color: #fff7fb;
+    }
+    80% {
+        background-color: #fbf2ff;
     }
     100% {
-        background-color: #f8eefc;
+        background-color: #f6f1f5;
     }
 }
 
-header {
+#quote {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
     text-align: center;
-    padding: 50px;
-    background-color: #333;
-    color: white;
 }
-
-section {
-    margin: 20px;
-    padding: 20px;
-}
-
-#projects .project {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin: 10px 0;
+.quote-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 550; /* Adjust weight as desired (e.g., 400, 500, 700) */
+    font-size: 0.8em; /* Adjust size to make it prominent */
+    color: #363636; /* Polished color for the text */
+    font-style: normal;
+    letter-spacing: 0px;
+    margin: 5px 0;
+    /* text-transform: uppercase; */
 }

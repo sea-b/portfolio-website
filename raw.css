@@ -1,0 +1,20 @@
+/* For larger headings */
+.inter-heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 2em; /* Adjust as needed */
+}
+
+/* For regular body text */
+.inter-body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400; /* Regular weight */
+    font-size: 1em; /* Standard size */
+}
+
+/* For subtitles or smaller text */
+.inter-subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 0.9em; /* Slightly smaller */
+}
